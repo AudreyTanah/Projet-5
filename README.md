@@ -1,4 +1,6 @@
-Projet-5 # Kanap #
+Projet-5
+Kanap
+
 View deployment : Cliquer sur l'adresse Vercel du repo. et rajouter à l'url (barre d'adresse) "/html".
 
 Je suis en poste dans une agence de développement web depuis quelques semaines maintenant. Après avoir réalisé avec succès l’intégration de quelques sites web (HTML/CSS), on me confie une nouvelle mission.
