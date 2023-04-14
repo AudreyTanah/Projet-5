@@ -4,7 +4,7 @@ let searchParams = new URLSearchParams(url.search);
 let id = "";
 if (searchParams.has('id')) { //Récupère l'id et crée la condition pour récupérer les données
 id = searchParams.get('id')
-const apiProductsUrl = 'projet-5-production.up.railway.app/api/products/';
+const apiProductsUrl = 'https://projet-5-production.up.railway.app/api/products/';
 const productPage = apiProductsUrl + id;
 
 fetch(productPage).then((response) => {return response.json()})

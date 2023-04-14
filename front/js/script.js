@@ -1,4 +1,4 @@
-fetch ("projet-5-production.up.railway.app/api/products")
+fetch ("https://projet-5-production.up.railway.app/api/products")
   .then(function(res) {
     if (res.ok) {
       return res.json();
