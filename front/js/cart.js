@@ -130,7 +130,7 @@ function submitForm(e) {
   )
     .then((res) => res.json())
     .then((data) => {
-      window.location.href = "confirmation.html?orderId=" + data.orderId;
+      window.location.href = "./html/confirmation.html?orderId=" + data.orderId;
     })
     .catch((err) => console.log(err));
 }
