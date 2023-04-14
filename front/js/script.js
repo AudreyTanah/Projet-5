@@ -1,4 +1,4 @@
-fetch ("http://localhost:3000/api/products")
+fetch ("projet-5-production.up.railway.app/api/products")
   .then(function(res) {
     if (res.ok) {
       return res.json();

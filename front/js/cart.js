@@ -3,7 +3,7 @@ let productApi = [];
 cart.forEach((product) => {
   let id = product.id; //id produit Local Storage
   //Récupération des autres données du produit en fonction de l'id
-  const apiProductsUrl = 'http://localhost:3000/api/products/';
+  const apiProductsUrl = 'projet-5-production.up.railway.app/api/products/';
   const productPage = apiProductsUrl + id;
   fetch(productPage)
     .then((response) => response.json())
@@ -120,7 +120,7 @@ function submitForm(e) {
 
   if (isEmailInvalid()) return;
   const body = makeRequestBody();
-  fetch("http://localhost:3000/api/products/order", {
+  fetch("projet-5-production.up.railway.app/api/products/order", {
     method: "POST",
     body: JSON.stringify(body),
     headers: {
