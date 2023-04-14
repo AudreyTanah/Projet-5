@@ -88,7 +88,7 @@ function saveDataColorQuantity(color, quantity) {
   }
   saveProducts(cart);//Appel de la fonction pour l'Ajout dans le Local Storage
   alert ("Le produit est bien ajouté au Panier") 
-  window.location.href = "./html/cart.html";
+  window.location.href = "/html/cart.html";
   }
   //Ajout de la cart dans le Local Storage
     function saveProducts(cart) {
