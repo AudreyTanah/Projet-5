@@ -7,7 +7,7 @@ fetch ("https://projet-5-production.up.railway.app/api/products")
   .then(function(productsData) {
     const eltItems = document.getElementById('items');
     for (let product of productsData) {
-      eltItems.innerHTML += `<a href="./product.html?id=${product._id}"> 
+      eltItems.innerHTML += `<a href="./html/product.html?id=${product._id}"> 
       <article>
         <img src= "${product.imageUrl}" alt= "${product.altTxt}">
         <h3 class="productName">${product.name}</h3>
